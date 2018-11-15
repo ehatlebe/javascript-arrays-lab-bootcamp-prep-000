@@ -29,7 +29,7 @@ console.log(`destructivelyRemoveFirstKitten: ${destructivelyRemoveFirstKitten()}
 
 function appendKitten(name) {
   name = "Broom";
-  let kittensAppended = [...kittens.slice(), name];
+  let kittensAppended = [...kittens, name];
   return kittensAppended;
 };
 console.log(`appendKitten: ${appendKitten()}`);
