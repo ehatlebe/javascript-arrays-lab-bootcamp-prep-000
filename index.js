@@ -41,7 +41,9 @@ function prependKitten(name) {
 };
 console.log(`prependKitten: ${prependKitten()}`);
 
-function removeLastKitten() {};
+function removeLastKitten() {
+  
+};
 console.log(`removeLastKitten: ${removeLastKitten()}`);
 
 //function removeFirstKitten() {};
