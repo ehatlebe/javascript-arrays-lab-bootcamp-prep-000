@@ -50,7 +50,8 @@ console.log(`kittens: ${kittens}`);
 console.log(`kittensPrepended: ${kittensPrepended}`);
 
 function removeLastKitten() {
-  kittensRemoveLast = kittens.pop();
+  let kittensRemoveLast = kittens;
+  kittensRemoveLast = kittensRemoveLast.pop();
   return kittensRemoveLast;
 };
 console.log(`removeLastKitten: ${removeLastKitten()}`);
