@@ -42,7 +42,8 @@ function prependKitten(name) {
 console.log(`prependKitten: ${prependKitten()}`);
 
 function removeLastKitten() {
-  
+  kittensRemoveLast = kittens.pop();
+  return kittensRemoveLast;
 };
 console.log(`removeLastKitten: ${removeLastKitten()}`);
 
