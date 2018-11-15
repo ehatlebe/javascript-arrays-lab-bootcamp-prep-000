@@ -6,6 +6,7 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 };
+console.log(kittens);
 console.log(`destructivelyAppendKitten: ${destructivelyAppendKitten()}`);
 
 function destructivelyPrependKitten(name) {
@@ -13,18 +14,21 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens;
 };
+console.log(kittens);
 console.log(`destructivelyPrependKitten: ${destructivelyPrependKitten()}`);
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 };
+console.log(kittens);
 console.log(`destructivelyRemoveLastKitten: ${destructivelyRemoveLastKitten()}`);
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 };
+console.log(kittens);
 console.log(`destructivelyRemoveFirstKitten: ${destructivelyRemoveFirstKitten()}`);
 
 function appendKitten(name) {
@@ -40,12 +44,14 @@ function prependKitten(name) {
   let kittensPrepended = [name, ...kittens];
   return kittensPrepended;
 };
+console.log(kittens);
 console.log(`prependKitten: ${prependKitten()}`);
 
 function removeLastKitten() {
   kittensRemoveLast = kittens.pop();
   return kittensRemoveLast;
 };
+console.log(kittens);
 console.log(`removeLastKitten: ${removeLastKitten()}`);
 
 //function removeFirstKitten() {};
