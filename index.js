@@ -6,7 +6,7 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 };
-destructivelyAppendKitten();
+console.log(destructivelyAppendKitten());
 
 function destructivelyPrependKitten(name) {
   name = "Bob";
