@@ -56,7 +56,7 @@ console.log(`kittens: ${kittens}`);
 
 function removeFirstKitten() {
   let kittensRemoveFirst = [...kittens.slice(1)];
-  retrun kittensRemoveFirst;
+  return kittensRemoveFirst;
 };
 console.log(`removeFirstKitten: ${removeFirstKitten()}`);
 console.log(`kittens: ${kittens}`);
