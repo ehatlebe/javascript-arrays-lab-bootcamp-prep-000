@@ -13,19 +13,25 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name);
   return kittens;
 };
+console.log(`destructivelyPrependKitten: ${destructivelyPrependKitten()}`);
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
   return kittens;
 };
+console.log(`destructivelyRemoveLastKitten: ${destructivelyRemoveLastKitten()}`);
 
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 };
+console.log(`destructivelyRemoveFirstKitten: ${destructivelyRemoveFirstKitten()}`);
 
 function appendKitten(name) {
   name = "Broom";
   let newKittens = [...kittens.slice(), name];
   return newKittens;
 };
+console.log(`appendKitten: ${appendKitten()}`);
+
+//console.log(`---: ${---()}`);
