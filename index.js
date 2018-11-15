@@ -35,8 +35,8 @@ function appendKitten(name) {
 console.log(`appendKitten: ${appendKitten()}`);
 
 function prependKitten(name) {
-  name = "";
-  let kittensPrepended = ;
+  name = "Arnold";
+  let kittensPrepended = [name, ...kittens];
   return kittensPrepended;
 };
 console.log(`prependKitten: ${prependKitten()}`);
