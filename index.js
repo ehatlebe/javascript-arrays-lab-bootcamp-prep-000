@@ -38,7 +38,6 @@ function appendKitten(name) {
 };
 console.log(`appendKitten: ${appendKitten()}`);
 console.log(`kittens: ${kittens}`);
-console.log(`kittensAppended: ${kittensAppended}`);
 
 function prependKitten(name) {
   name = "Arnold";
@@ -47,7 +46,6 @@ function prependKitten(name) {
 };
 console.log(`prependKitten: ${prependKitten()}`);
 console.log(`kittens: ${kittens}`);
-console.log(`kittensPrepended: ${kittensPrepended}`);
 
 function removeLastKitten() {
   let kittensRemoveLast = [...kittens.slice(0,2)];
@@ -55,7 +53,6 @@ function removeLastKitten() {
 };
 console.log(`removeLastKitten: ${removeLastKitten()}`);
 console.log(`kittens: ${kittens}`);
-console.log(`kittensRemoveLast: ${kittensRemoveLast}`);
 
 //function removeFirstKitten() {};
 //console.log(`removeFirstKitten: ${removeFirstKitten()}`);
