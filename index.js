@@ -22,3 +22,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 };
+
+function appendKitten(name) {
+  name = "Broom";
+  let newKittens = [...kittens.slice(), name];
+  return newKittens;
+};
