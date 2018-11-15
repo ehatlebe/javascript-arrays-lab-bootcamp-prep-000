@@ -29,9 +29,16 @@ console.log(`destructivelyRemoveFirstKitten: ${destructivelyRemoveFirstKitten()}
 
 function appendKitten(name) {
   name = "Broom";
-  let newKittens = [...kittens.slice(), name];
-  return newKittens;
+  let kittensAppended = [...kittens.slice(), name];
+  return kittensAppended;
 };
 console.log(`appendKitten: ${appendKitten()}`);
+
+function prependKitten(name) {
+  name = "";
+  let kittensPrepended = ;
+  return kittensPrepended;
+};
+console.log(`prependKitten: ${prependKitten()}`);
 
 //console.log(`---: ${---()}`);
