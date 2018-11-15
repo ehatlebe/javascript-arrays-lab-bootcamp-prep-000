@@ -32,6 +32,7 @@ function appendKitten(name) {
   let kittensAppended = [...kittens, name];
   return kittensAppended;
 };
+console.log(kittens);
 console.log(`appendKitten: ${appendKitten()}`);
 
 function prependKitten(name) {
