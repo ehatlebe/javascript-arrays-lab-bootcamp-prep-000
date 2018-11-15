@@ -54,7 +54,8 @@ function removeLastKitten() {
 console.log(`removeLastKitten: ${removeLastKitten()}`);
 console.log(`kittens: ${kittens}`);
 
-//function removeFirstKitten() {};
-//console.log(`removeFirstKitten: ${removeFirstKitten()}`);
-//console.log(`kittens: ${kittens}`);
-//console.log(`kittens: ${kittens}`);
+function removeFirstKitten() {
+  let kittensRemoveFirst = [kittens.slice(1)];
+};
+console.log(`removeFirstKitten: ${removeFirstKitten()}`);
+console.log(`kittens: ${kittens}`);
